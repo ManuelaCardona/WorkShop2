@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=Barlow&family=Fraunces:opsz@9..144&family=Josefin+Sans:wght@200;300&family=Noto+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainImg{
+    width: 1348px;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    top: 63px;
+    left: 831px;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.loopstudios{
+    color: #fff;
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 153px;
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+}
+
+.mainText{
+    color: #fff;
+    display: flex;
+    position: absolute;
+    top: 210px;
+    left: 153px;
+    padding-right: 50px;
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-color: #fff;
+    border-left: white 2px solid ;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    border-right: white 2px solid;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
+    width: 600px;
+}
+
+.about{
+    margin:150px;
+}
+
+.textAbout{
+    display: flex;
+    position: absolute;
+    padding: 45px;
+    padding-top: 95px;
+    top: 950px;
+    left: 720px;
+    width: 540px;
+    background-color: #fff;
+    flex-direction: column;
+    margin-right: 153;
+}
+
+.titleAbout{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+}
+
+.pAbout{
+    font-family:'Alata', sans-serif;
+    color: #939393;
+    font-size: 15px;
+}
+
+.creations {
+    margin: 150px;
+}
+
+.titleCreations {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.pCreations {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.btnCreations {
+    background-color: transparent;
+    color: #000;
+    font-family:'Alata', sans-serif;
+    padding: 5px;
+    width: 130px;
+    letter-spacing: 2px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.textCreations{
+    display: flex;
+    position: absolute;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 135px;
+}
+
+.earth{
+    top: 1860px;
+    left: 190px;
+}
+
+.arcade{
+    top: 1860px;
+    left: 450px;
+}
+
+.soccer{
+    top: 1860px;
+    left: 720px;
+}
+
+.grid{
+    top: 1860px;
+    left: 980px;
+}
+
+.textCreations1{
+    display: flex;
+    position: absolute;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 220px;
+}
+
+.street{
+    top: 2340px;
+    left: 190px;
+}
+
+.borealis{
+    top: 2340px;
+    left: 450px;
+}
+
+.curiosity{
+    top: 2340px;
+    left: 720px;
+}
+
+.fisheye{
+    top: 2340px;
+    left: 980px;
+}
+
+footer{
+    background-color: #000;
+}
+
+.footer{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titleFooter{
+    color: #fff;
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+}
+
+.lopstudiosFooter{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.line2Footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hrefFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.hrefFooter a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.pFooter{
+    color: #939393;
+}
